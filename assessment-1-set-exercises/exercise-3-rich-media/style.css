@@ -1,0 +1,25 @@
+/*This will set the font to fantasy on the body
+element*/
+body{
+    font-family: sans-serif;
+    margin: 3;
+    padding: 0;
+}
+img{
+    display: flex;
+    float: left;
+    padding: 0;
+
+}
+/*CSS code to remove white background 
+from the video and picture. :)*/
+video{
+     display: block;
+}
+/*Used to seprate the images and the alttrbution from each other
+also allow the attrbution to be below the image.*/
+.spacing{
+    float:left;
+    padding:12;
+}
+

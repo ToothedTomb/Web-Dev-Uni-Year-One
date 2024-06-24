@@ -1,0 +1,10 @@
+/*Body custimazation for example the font style, the font color background color etc.*/
+body{
+    font-family: sans-serif;
+
+}
+/*When I use the class grey background then the section that calls it will have the content in grey background.*/
+.greybackground{
+    background-color: rgb(211, 207, 207);
+    padding: 10px;
+}

@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+
+}
+/*When the user highlight the 
+text then it will purple and not 
+blue...*/
+::selection{
+    background-color: blueviolet;
+}
+
+/*This iframe withh have width 100% meaning that no matter the size of the screen
+it will take up 100% of the screen.*/
+iframe{
+    width: 100%;
+    height:600px;
+    }
+
+img{
+    border-style:groove;
+    border-color: white;
+}
+.nav{
+    font-size: large;
+   
+
+
+}
+.nav img{
+    border-style: none;
+
+}
+.nav ul{
+    /*Will not contain a bullet point*/
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: blueviolet;
+
+}
+.nav li{
+    float: left;
+    padding:4px;
+}
+
+.nav li a{
+    display:block;
+    color:White;
+    text-align:center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+
+.nav li a:hover {
+    background-color: #8B8000;
+}
+.nav img{
+    width: 78px;
+    height:auto;
+}
+.DistanceFromEarthBox{
+    margin: 28px;
+    padding: 2px;
+    background-color: blueviolet;
+
+}
+button{
+    position: bottom;
+    padding: 12px 12px;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    border-color: white;
+    color: white;
+    font-size: large;
+
+}
+button:hover{
+    background-color: #8B8000;
+}
+/*This will make the image bigger when you hover accross it
+making it easier to see.*/
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    transition-duration: 1.5s; /*I wanted to add a little nice effect. :)*/
+
+
+}
+.Smaller img{
+    height: 170px;
+}
+.container a{
+    text-decoration:none;
+    color:white;
+    
+}
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    display: inline-block;
+
+
+}
+input{
+    width: 95%;
+    font-size: 24px;
+    border-width: 2px;
+    border-color: white;
+
+}
+input:hover{
+    background-color: #8B8000;
+}
+.container .border{
+    border-width: 12px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 12px;
+
+
+}
+/*Just make the text area for the form contact to make the box bigger. :)*/
+textarea {
+        border-width: 2px;
+
+    width: 95%;
+    height: 750px;
+    font-size: 24px;
+  }
+textarea:hover{
+    background-color: #8B8000;
+
+}

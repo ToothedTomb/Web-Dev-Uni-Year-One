@@ -1,0 +1,65 @@
+
+/*Styling update for the body!!! Like the background color
+and also the fonts to sans. */
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+/*The code below will update the look for the heading one*/
+
+h1{
+    color: green;
+    font-size: 50PX;
+}
+background-color{
+ color:gray;
+/*This will make heading two be green in color*/
+}
+h2{
+    color: green;
+    font-size: 30PX;
+}
+
+/*This is used to set up the white box
+around the text...*/
+.whiteBoxBackground{
+    place-items: center;
+    vertical-align: top;
+    background-color: white;
+    width: 680px;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 40px;
+    margin: auto;
+    width: "50";
+}
+/*greenbox is the greenbox to show did you know?*/
+.GreenBox {
+    place-items: center;
+    align-items: left;
+    background-color: green;
+    width: 580px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 40px;
+}
+/*I ran into issue but found out on fixing it buy adding 
+formatting updates to heading two and paragraphs in the
+greenbox. */
+.GreenBox h2{
+    color: white;
+
+}
+.GreenBox p{
+    color: white;
+}
+
+/*
+
+Help from:
+
+www.w3schools.com. (n.d.). CSS Layout - Horizontal & Vertical Align. [online] Available at: https://www.w3schools.com/css/css_align.asp.
+
+‌*/

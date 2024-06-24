@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Lang en is for the screen reader to use the correct accent and pronunciation-->
+
+<head>
+    <!--Has been linked to the styles.css file to save all css setting there,-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Has been linked to a javascript code that is basic but allows me to orgainse the code. :) -->
+    <script src="Javascript.js"></script>
+    <link rel="icon" href="assets/divider.png" type="image/png">
+    <title>Buy images</title>
+
+</head>
+
+<body>
+    <!--Nav is used to group what will go inside the navigation bar as well as nav having its own style in css-->
+    <nav>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <a href="#Shopping-Chart"><img width="33" src="assets/shopping-cart.svg" alt="Shopping chart Icon."></a>
+
+    </nav>
+
+
+    <img width="400" src="assets/divider.png" alt="The logo.">
+    <section class="Spacing_Content">
+        <img width="400" src="assets/ocean.jpg" alt="Image of the ocean.">
+    </section>
+    <section class="Spacing_Content">
+
+        <p>
+            This was from a fabulous trip to the cost <br>
+            of Greenland with my family.
+            The water <br>was lovely- but very cold!
+        </p>
+    </section>
+    <!--Spacing_Content is used to help me have each content on differnt lines. -->
+    <section class="Spacing_Content">
+
+        <!--Anything that has onclick = function() means that the javascript file will look for the
+function and then will run the function. For our case it will display a popup message when the
+user presses on the button. -->
+        <button onclick="PopupMessageAddededToBasket()">Add to basket</button>
+    </section>
+    <section class="Spacing_Content">
+
+        <img width="410" src="assets/bridge.jpg" alt="Image of a bridge.">
+    </section>
+
+    <!--I have used br to seprate the content from each other. -->
+    <section class="Spacing_Content">
+        <p>A picture of the Golden Gate Bridge.
+            New<br> York! New York!</p>
+    </section>
+    <section class="Spacing_Content">
+        <button onclick="PopupMessageAddededToBasket()">Add to basket</button>
+    </section>
+    <section class="Spacing_Content">
+        <img width="410" src="assets/valley.jpg" alt="Image of a River valley. ">
+    </section>
+    <p>Another great photo from
+        Greenland.
+        It's <br>a river valley where a
+        glacier used to be.</p>
+    <section class="Spacing_Content">
+        <button onclick="PopupMessageAddededToBasket()">Add to basket</button>
+    </section>
+    <img width="410" src="assets/waterfall.jpg" alt="The image of a waterfall.">
+    <section class="Spacing_Content">
+        <p>The waterfall made such a lovely sound.
+            I <br>could have fallen asleep!</p>
+    </section>
+    <section class="Spacing_Content">
+
+        <!--The button tag will add a new button...-->
+        <button onclick="PopupMessageAddededToBasket()">Add to basket</button>
+    </section>
+    <section class="Spacing_Content">
+
+
+        <h2>Copyright The Wondering Photographer 2018.</h2>
+    </section>
+</body>
+
+</html>

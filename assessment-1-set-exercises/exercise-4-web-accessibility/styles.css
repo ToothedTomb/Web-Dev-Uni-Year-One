@@ -1,0 +1,59 @@
+/*Set the background color and the font- family. :)*/
+body{
+    background-color: rgb(221, 117, 135);
+    padding-right: 1;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*The button will still be in center but moved to the right*/
+button{
+    /*margin-right: 30%;*/
+    color: black;
+    padding: 15px 45px;
+    background-color:pink;
+    font-size: 24;
+
+
+
+}
+/*Some changes to the paragrpah tag*/
+p{
+    font-size:20px;
+
+    font-weight: bold;
+    background-color: white;
+    color: rgb(0, 225, 255);
+    display: inline-block;
+    content: "";
+
+
+}
+
+nav{
+    background-color: pink;
+    padding: 15px 45px;
+
+}
+nav li{
+    display: inline;
+    font-size: 25px;
+    color: black;
+    padding: 15px 45px;
+    background-color:pink;
+    
+}
+a {
+    color: black;
+}
+/*For each images content make sure there is spacing. */
+.Spacing_Content{
+    float:center;
+    float: center;
+}
+/*This will allow the image to be below the button with a space. */
+img{
+    margin-top: 12px;
+}
+

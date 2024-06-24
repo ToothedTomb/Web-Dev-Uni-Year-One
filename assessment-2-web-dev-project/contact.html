@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Linked to a css file for styling the website-->
+    <link rel="stylesheet" href="css files/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Just the title of the website in the tab-->
+    <!--I am getting the resources needed for the font - Noto Sans Mono!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--Just the title of the website in the tab-->
+    <title>Big Planetarium</title>
+    <!--This is to give the site a fav icon-->
+    <link rel="icon" type="image/x-icon" href="Assets/images/icon.png">
+
+    <!--Allow me to link a javascript code into the website.-->
+    <script src="Javascript/JavaScript.js"></script>
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li> <img src="Assets/images/icon.png" alt="The website icon"> </li>
+            <li><a href="index.html" title="Click here to go to the home page">Home</a></li>
+            <li><a href="Aboutus.html" title="Click here to go to the about us page">About us </a></li>
+            <li><a href="contact.html" title="Click here to go to the contact us page">Contact us</a></li>
+
+        </ul>
+    </div>
+    </div>
+    <u>
+        <h1>Contact us: </h1>
+    </u>
+    <div class="zoom">
+    <img src="Assets/images/icon.png" title="The website icon" alt="The website icon" >
+    </div>
+    <p><b>To contact us please fill in the form below.</b></p>
+
+    <form>
+        <form>
+            <label for="fname" >First name:</label><br>
+            <input type="text" id="firstname" name="firstname" size="50" title="Please enter your firstname" required oninvalid="this.setCustomValidity('Error: Please enter your first name.')" oninput="this.setCustomValidity('')"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" title="Enter your second name here" id="lastname" name="lastname" size="50" required oninvalid="this.setCustomValidity('Error: Please enter you second name.')" oninput="this.setCustomValidity('')">  <br>
+            <label for="Email">Your email address: </label><br>
+            <input type="text" title="Enter your email address here " id="Email" name="Email" size="50" required oninvalid="this.setCustomValidity('Error: Please enter your email address.')" oninput="this.setCustomValidity('')"><br>
+            <p>Enter here you message:</p>
+            <textarea id="txtarea" title="Enter your message here" required oninvalid="this.setCustomValidity('Error: Please enter you message here.')" oninput="this.setCustomValidity('')"></textarea> 
+            <p>Thanks for filling in this form press the button below to send us the form. </p>
+
+            <button type="submit" onclick="PopupMessageFinishTheFormWorked()" title="Click this button to submit the form">Submit.</button>
+
+          </form>
+        <hr width="100%">
+        <h2><u> If having issues with the form:</u></h2>
+        <p>Our email address is <b>Bristolbased@gmail.com</b>.</p>
+    </body>
+
+</html>
